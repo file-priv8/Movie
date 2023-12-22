@@ -6,7 +6,7 @@
  @font-face {
     font-display: block;
     font-family: bootstrap-icons;
-    src: url("https://cdn.statically.io/gh/file-priv8/CDN/main/bootstrap-icons/1.10.5/fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2") format("woff2"), url("https://cdn.statically.io/gh/file-priv8/CDN/main/bootstrap-icons/1.10.5/fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("woff")
+    src: url("https://cdn.statically.io/gh/file-priv8/Movie/main/bootstrap-icons/1.10.5/fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2") format("woff2"), url("https://cdn.statically.io/gh/file-priv8/Movie/main/bootstrap-icons/1.10.5/fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("woff")
   }
   
   .bi::before,
