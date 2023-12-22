@@ -155,8 +155,8 @@ $(document).ready(function() {
     '<img>' +
     '<abbr><span class="title"></span><small class="desc"></small></abbr>' +
     '</div>' +
-    '<button id="back">Back</button>' +
-    '<button id="play">Play</button>' +
+    '<button id="back">Cerrar</button>' +
+    '<button id="play">Ver</button>' +
     '</div>' +
     '<div class="scrollUp"><button id="scrollTop" title="Go to top"><i class="bi bi-chevron-double-up"></i></button></div>' +
     '<div class="select-section">' +
