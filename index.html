@@ -14,6 +14,14 @@
 
 <body>
 
+  <div id="loading">
+    <div class="loader">
+      <div class="loaderBar"></div>
+    </div>
+  </div>
+  
+  <div id="container-content" style="display: none;">
+
   <!-- 
     • Top Poster (Trending/Latest movies).
     • Max TP: 8
@@ -34,43 +42,7 @@
     • Max poster content: Unlimited
    -->
   <section class="container-section" id="s1">
-    <h3>Section 1</h3>
-    <div class="content-section">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-    </div>
-  </section>
-
-  <section class="container-section" id="s2">
-    <h3>Section 2</h3>
-    <div class="content-section">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-    </div>
-  </section>
-
-  <section class="container-section" id="s3">
-    <h3>Section 3</h3>
-    <div class="content-section">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-    </div>
-  </section>
-
-  <section class="container-section" id="s4">
-    <h3>Section 4</h3>
-    <div class="content-section">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-      <img src="" location="" title="" desc="" year="" rating="">
-    </div>
-  </section>
-
-  <section class="container-section" id="s5">
-    <h3>Section 5</h3>
+    <h3>Peliculas</h3>
     <div class="content-section">
       <img src="" location="" title="" desc="" year="" rating="">
       <img src="" location="" title="" desc="" year="" rating="">
@@ -81,10 +53,6 @@
   <!-- Section Bar -->
   <div class="section-bar">
     <div bar="section1"><i class="bi bi-film"></i></div>
-    <div bar="section2">S2</div>
-    <div bar="section3">S3</div>
-    <div bar="section4">S4</div>
-    <div bar="section5">S5</div>
   </div>
 
   <!--
@@ -98,8 +66,20 @@
   <script src="https://cdn.statically.io/gh/file-priv8/Movie/main/swiper/10/swiper-bundle.min.js"></script>
 
   <script>
+    window.addEventListener("load", function() {
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("container-content").style.visibility = "visible";
+    });
+    
+    setTimeout(function() {
+      document.getElementById("container-content").style.display = "block";
+    }, 500);
+    </script>
+
+  <script>
+    $("#loading").css("background","#0c090a")
     /* Set color for the primary content */
-    $(primaryContent).css(color, "#00BCD4");
+    $(primaryContent).css(color, "#43d58e");
 
     /* Change the primary font */
     const fontface = {
