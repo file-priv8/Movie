@@ -161,7 +161,7 @@ $(document).ready(function() {
     '<div class="scrollUp"><button id="scrollTop" title="Go to top"><i class="bi bi-chevron-double-up"></i></button></div>' +
     '<div class="select-section">' +
     '<button class="btn-section btn" id="reload"><i class="bi bi-bootstrap-reboot"></i></button>' +
-    '<button class="btn-section" id="open"><i class="bi bi-list-nested"></i></button>' +
+    '<button class="btn-section" id="open"><i class="bi bi-rocket-takeoff"></i></button>' +
     '</div>'
   );
 
