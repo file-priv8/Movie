@@ -11,8 +11,8 @@ $(".container-section").each(function() {
 });
 
 $("title").after(
-  '<link rel="stylesheet" href="https://cdn.statically.io/gh/file-priv8/Movie/main/bootstrap-icons/1.10.5/icons.min.css">' +
-  '<link rel="stylesheet" href="https://cdn.statically.io/gh/file-priv8/Movie/main/swiper/10/swiper-bundle.min.css">'
+  '<link rel="stylesheet" href="https://cdn.statically.io/gh/file-priv8/Movie/main/Beta_0.001/bootstrap-icons/1.10.5/icons.min.css">' +
+  '<link rel="stylesheet" href="https://cdn.statically.io/gh/file-priv8/Movie/main/Beta_0.001/swiper/10/swiper-bundle.min.css">'
 );
 
 $(document).ready(function() {
